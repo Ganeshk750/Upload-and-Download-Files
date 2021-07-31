@@ -49,7 +49,7 @@ public class FileUploadAndDownloadWithFileSystemController {
 	public ResponseEntity<Resource> downLoadSingleFile(@PathVariable String fileName, HttpServletRequest request){
 		Resource resource = fileStorageService.downloadFile(fileName);
 		
-		//MediaType contentType = MediaType.IMAGE_JPEG;
+		//MediaType contentType = MediaType.IMAGE_JPEG; // Used For only jpg type image
 		
 		String mimeType;
 		
