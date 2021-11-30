@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+file:
+  storage:
+    location: fileStorage
+    
+#// when file size comes under this rage new temps1 folder will we created    
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      location: temps1 
+      file-size-threshold: 5MB 
+      max-file-size: 1MB
+      max-request-size: 20MB
+        
+        
+        
