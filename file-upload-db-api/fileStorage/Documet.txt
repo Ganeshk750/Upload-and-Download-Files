@@ -1,0 +1,13 @@
+----------
+ USE CASE
+----------
+.File upload/download to local file system or db
+  .single file
+  .Multiple file
+.Render file in the Browser
+.File Types - pdf/jpg/png/doc/excel etc..
+.Deriving Centent type dynamically
+.File Size constraints
+.Number of files - threshold
+.Zip files
+------------------------------------------
